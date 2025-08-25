@@ -123,7 +123,7 @@ let firstNameG = username.reduce((acc,curr)=>{
       return curr.firstname
       
     }
-    return acc ;
+    return acc ;  
 },null)
 
 // [ 'Ram', 'Shyam', 'shree', 'jhon' ] this is the output 
